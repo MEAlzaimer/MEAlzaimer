@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
     private ImageButton botaoContinuar;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +23,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),MenuInicialActivity.class));
+                finish();
+
             }
         });
 
