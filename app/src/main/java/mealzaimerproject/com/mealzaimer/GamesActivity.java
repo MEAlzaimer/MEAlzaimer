@@ -6,19 +6,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MenuInicialActivity extends AppCompatActivity {
-    private ImageButton botaoJogos;
+import mealzaimerproject.com.mealzaimer.ordemDoze.GameOrdemStartActivity;
+
+
+public class GamesActivity extends AppCompatActivity {
+   private ImageButton botaoJogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_inicial);
-        botaoJogos=(ImageButton)findViewById(R.id.btnJogos);
-        botaoJogos.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_games);
+        botaoJogo=findViewById(R.id.ordemStart);
+
+        botaoJogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),GamesActivity.class));
+               startActivity(new Intent(getApplicationContext(),GameOrdemStartActivity.class));
             }
         });
+
+
     }
 }
