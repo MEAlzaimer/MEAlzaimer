@@ -1,4 +1,4 @@
-package mealzaimerproject.com.mealzaimer;
+package mealzaimerproject.com.mealzaimer.splashsMEAlzheimer;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,9 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
+
+import mealzaimerproject.com.mealzaimer.MainActivity;
+import mealzaimerproject.com.mealzaimer.R;
 
 public class SplashActivity extends Activity {
 

@@ -1,4 +1,4 @@
-package mealzaimerproject.com.mealzaimer.ordemDoze;
+package mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.ordemDoze;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 
 import mealzaimerproject.com.mealzaimer.MenuInicialActivity;
 import mealzaimerproject.com.mealzaimer.R;
-import mealzaimerproject.com.mealzaimer.ordemDoze.GameOrdemStartActivity;
+import mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartActivity;
 
 public class GameOrdemStartScreenLoserActivity extends AppCompatActivity {
     private ImageButton botaoTentarNovamente;

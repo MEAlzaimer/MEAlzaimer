@@ -1,4 +1,4 @@
-package mealzaimerproject.com.mealzaimer.ordemDoze;
+package mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.ordemDoze;
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;

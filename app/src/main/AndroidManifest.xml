@@ -12,7 +12,7 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".splashsMEAlzheimer.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,9 +22,9 @@
         <activity
             android:name=".MenuInicialActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".GamesActivity" />
-        <activity android:name=".ordemDoze.GameOrdemStartActivity" />
-        <activity android:name=".ordemDoze.GameOrdemStartScreenLoserActivity"></activity>
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.GamesActivity" />
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartActivity" />
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity"></activity>
     </application>
 
 </manifest>

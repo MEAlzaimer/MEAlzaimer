@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.GamesActivity;
+
 public class MenuInicialActivity extends AppCompatActivity {
     private ImageButton botaoJogos;
 
