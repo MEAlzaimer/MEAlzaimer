@@ -11,7 +11,7 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/background">
+        android:background="@drawable/backsecundario">
 
 
         <ImageButton
@@ -25,17 +25,18 @@
             android:layout_marginRight="24dp"
             android:background="@android:color/transparent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logocamerafoto" />
 
         <ImageButton
             android:id="@+id/imageButton30"
-            android:layout_width="132dp"
-            android:layout_height="122dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="192dp"
+            android:layout_width="130dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="224dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
             app:layout_constraintStart_toStartOf="parent"
@@ -48,22 +49,22 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="36dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="NOME DO USUARIO"
             android:textAllCaps="false"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintHorizontal_bias="0.773"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton29" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/imageButton31"
             android:layout_width="135dp"
             android:layout_height="127dp"
-            android:layout_marginTop="192dp"
+            android:layout_marginTop="224dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:background="@android:color/transparent"
