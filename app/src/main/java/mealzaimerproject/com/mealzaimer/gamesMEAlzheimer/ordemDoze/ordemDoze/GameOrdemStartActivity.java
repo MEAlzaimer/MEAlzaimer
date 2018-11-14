@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ import mealzaimerproject.com.mealzaimer.R;
 
 public class GameOrdemStartActivity extends AppCompatActivity {
     String texto;
+    TextView selecionarImagem;
     ImageButton b_new;
     ImageButton btnBola,btnCoracao,btnTrofeu;
     Button button1,button2,button3,
@@ -47,6 +49,7 @@ public class GameOrdemStartActivity extends AppCompatActivity {
             button10=(Button)findViewById(R.id.button10);
             button11=(Button)findViewById(R.id.button11);
             button12=(Button)findViewById(R.id.button12);
+            selecionarImagem=findViewById(R.id.selecaoID);
                 button1.setTag(1);
                 button2.setTag(2);
                 button3.setTag(3);
@@ -81,6 +84,7 @@ public class GameOrdemStartActivity extends AppCompatActivity {
                 btnBola.setVisibility(View.INVISIBLE);
                 btnCoracao.setVisibility(View.INVISIBLE);
                 btnTrofeu.setVisibility(View.INVISIBLE);
+                selecionarImagem.setVisibility(View.INVISIBLE);
                 curGuess=0;
                 curLevel=1;
                 generateButtons(curLevel);

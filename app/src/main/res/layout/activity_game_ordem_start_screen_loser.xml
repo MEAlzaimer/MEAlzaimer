@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
     tools:context=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity">
-
+<android.support.constraint.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="315dp"
@@ -39,15 +41,17 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="360dp"
-        android:layout_height="75dp"
+        android:layout_width="369dp"
+        android:layout_height="76dp"
+
+        android:lineSpacingExtra="4sp"
         android:text="SABIA QUE JOGOS SÃO SUPER INDICADOS PARA QUEM TEM ALZHEIMER,AJUDA NA ESTIMULAÇÃO DO CÉREBRO."
         android:textAllCaps="true"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -78,4 +82,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTentarNovamente"
         app:srcCompat="@drawable/buttonmenuprincipal" />
+
 </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
