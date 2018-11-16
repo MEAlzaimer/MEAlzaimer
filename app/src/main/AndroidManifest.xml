@@ -24,7 +24,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".gamesMEAlzheimer.ordemDoze.GamesActivity" />
         <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartActivity" />
-        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity"></activity>
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity" />
+        <activity android:name=".ManualActivity"></activity>
     </application>
 
 </manifest>
