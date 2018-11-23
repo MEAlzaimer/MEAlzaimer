@@ -10,6 +10,7 @@ import mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.GamesActivity
 
 public class MenuInicialActivity extends AppCompatActivity {
     private ImageButton botaoJogos;
+    private ImageButton botaoManual;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +23,6 @@ public class MenuInicialActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),GamesActivity.class));
             }
         });
+
     }
 }

@@ -18,9 +18,9 @@
             android:id="@+id/imageButton29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
             android:background="@android:color/transparent"
@@ -28,7 +28,7 @@
             app:layout_constraintHorizontal_bias="0.029"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/logocamerafoto" />
+            app:srcCompat="@drawable/coroaxxhdpi" />
 
         <ImageButton
             android:id="@+id/imageButton30"
@@ -49,14 +49,16 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="NOME DO USUARIO"
-            android:textAllCaps="false"
+            android:text="CARLOS DOS SANTOS\nIDADE:69 ANOS"
+            android:textAllCaps="true"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -216,7 +218,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btnManualId"
             android:layout_width="118dp"
             android:layout_height="118dp"
             android:layout_marginStart="32dp"
@@ -252,7 +254,7 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+            app:layout_constraintTop_toBottomOf="@+id/btnManualId" />
 
         <TextView
             android:id="@+id/textView4"
