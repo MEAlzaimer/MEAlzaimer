@@ -25,6 +25,10 @@
         <activity android:name=".gamesMEAlzheimer.ordemDoze.GamesActivity" />
         <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartActivity" />
         <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity" />
+        <activity android:name=".EuActivity" />
+        <activity android:name=".FamiliaActivity" />
+        <activity android:name=".EmDesenvolvimentoActivity" />
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartWinActivity"></activity>
     </application>
 
 </manifest>

@@ -31,7 +31,7 @@
             app:srcCompat="@drawable/coroaxxhdpi" />
 
         <ImageButton
-            android:id="@+id/imageButton30"
+            android:id="@+id/btnEu"
             android:layout_width="130dp"
             android:layout_height="127dp"
             android:layout_marginStart="28dp"
@@ -63,7 +63,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton31"
+            android:id="@+id/btnFamilia"
             android:layout_width="135dp"
             android:layout_height="127dp"
             android:layout_marginTop="224dp"
@@ -88,7 +88,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/textView12"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton30"
+            app:layout_constraintTop_toBottomOf="@+id/btnEu"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -102,10 +102,10 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton31" />
+            app:layout_constraintTop_toBottomOf="@+id/btnFamilia" />
 
         <ImageButton
-            android:id="@+id/imageButton32"
+            android:id="@+id/btnEnderecos"
             android:layout_width="118dp"
             android:layout_height="118dp"
             android:layout_marginStart="32dp"
@@ -118,7 +118,7 @@
             app:srcCompat="@drawable/logomeusenderecosxxhdpi" />
 
         <ImageButton
-            android:id="@+id/imageButton33"
+            android:id="@+id/btnRemedios"
             android:layout_width="118dp"
             android:layout_height="0dp"
             android:layout_marginTop="32dp"
@@ -126,7 +126,7 @@
             android:layout_marginRight="32dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton32"
+            app:layout_constraintBottom_toBottomOf="@+id/btnEnderecos"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12"
             app:srcCompat="@drawable/logoremedioxxhdpi" />
@@ -144,7 +144,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton32"
+            app:layout_constraintTop_toBottomOf="@+id/btnEnderecos"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -158,10 +158,10 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton33" />
+            app:layout_constraintTop_toBottomOf="@+id/btnRemedios" />
 
         <ImageButton
-            android:id="@+id/imageButton35"
+            android:id="@+id/btnTarefas"
             android:layout_width="118dp"
             android:layout_height="118dp"
             android:layout_marginStart="32dp"
@@ -174,7 +174,7 @@
             app:srcCompat="@drawable/logotarefasdiadiaxxhdpi" />
 
         <ImageButton
-            android:id="@+id/imageButton36"
+            android:id="@+id/btnAnotacoes"
             android:layout_width="118dp"
             android:layout_height="118dp"
             android:layout_marginTop="32dp"
@@ -182,7 +182,7 @@
             android:layout_marginRight="32dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton35"
+            app:layout_constraintBottom_toBottomOf="@+id/btnTarefas"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
             app:layout_constraintVertical_bias="1.0"
@@ -199,7 +199,7 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton35" />
+            app:layout_constraintTop_toBottomOf="@+id/btnTarefas" />
 
         <TextView
             android:id="@+id/textView16"
@@ -214,11 +214,11 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton36"
+            app:layout_constraintTop_toBottomOf="@+id/btnAnotacoes"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
-            android:id="@+id/btnManualId"
+            android:id="@+id/btnManual"
             android:layout_width="118dp"
             android:layout_height="118dp"
             android:layout_marginStart="32dp"
@@ -231,7 +231,7 @@
             app:srcCompat="@drawable/logomealzheimerxxhdpi" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/btnSaude"
             android:layout_width="118dp"
             android:layout_height="118dp"
             android:layout_marginTop="32dp"
@@ -254,7 +254,7 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnManualId" />
+            app:layout_constraintTop_toBottomOf="@+id/btnManual" />
 
         <TextView
             android:id="@+id/textView4"
@@ -267,7 +267,7 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+            app:layout_constraintTop_toBottomOf="@+id/btnSaude" />
 
         <ImageButton
             android:id="@+id/btnJogos"

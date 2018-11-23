@@ -218,7 +218,7 @@ public class GameOrdemStartActivity extends AppCompatActivity {
         if(curGuess==curLevel){
             disableButtons();
             if(curLevel==12){
-                Toast.makeText(this, "PARABENS VOÇÊ CONSEGUIU", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(),GameOrdemStartWinActivity.class));
                 b_new.setVisibility(View.VISIBLE);
                 btnBola.setVisibility(View.VISIBLE);
                 btnCoracao.setVisibility(View.VISIBLE);
