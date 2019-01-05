@@ -1,5 +1,6 @@
 package mealzaimerproject.com.mealzaimer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,16 +9,17 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class FamiliaActivity extends AppCompatActivity {
-    private ImageView imagemum;
-    private ImageView imgdois;
-    private ImageView imgtres;
-    private ImageButton imgquatro;
-    private ImageButton imgcinco;
-    private ImageButton imgseis;
-    private ImageButton imgsete;
-    private ImageButton imgoito;
-    private ImageButton imgnove;
-    private ImageButton imgdez;
+    protected ImageView imagemum;
+    protected ImageView imgdois;
+    protected ImageView imgtres;
+    protected ImageButton imgquatro;
+    protected ImageButton imgcinco;
+    protected ImageButton imgseis;
+    protected ImageButton imgsete;
+    protected ImageButton imgoito;
+    protected ImageButton imgnove;
+    protected ImageButton imgdez;
+    protected  ImageButton cadastrarPessoa;
 
 
     @Override
@@ -102,6 +104,13 @@ public class FamiliaActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"ADALBERTO SILVA MARTINS", Toast.LENGTH_SHORT).show();
 
+            }
+        });
+        cadastrarPessoa=(ImageButton)findViewById(R.id.btnAdicionarPessoa);
+        cadastrarPessoa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),CadastroPessoasActivity.class));
             }
         });
 

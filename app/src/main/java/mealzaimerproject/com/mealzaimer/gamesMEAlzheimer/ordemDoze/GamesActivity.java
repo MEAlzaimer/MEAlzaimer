@@ -11,13 +11,13 @@ import mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.ordemDoze.Gam
 
 
 public class GamesActivity extends AppCompatActivity {
-   private ImageButton botaoJogo;
+    protected ImageButton botaoJogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_games);
-        botaoJogo=findViewById(R.id.ordemStart);
+        botaoJogo=(ImageButton) findViewById(R.id.ordemStart);
 
         botaoJogo.setOnClickListener(new View.OnClickListener() {
             @Override

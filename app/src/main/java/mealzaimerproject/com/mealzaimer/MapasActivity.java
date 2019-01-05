@@ -3,11 +3,11 @@ package mealzaimerproject.com.mealzaimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class EuActivity extends AppCompatActivity {
+public class MapasActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_eu);
+        setContentView(R.layout.activity_mapas);
     }
 }

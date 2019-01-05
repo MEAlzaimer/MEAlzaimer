@@ -1,9 +1,70 @@
 <resources>
     <string name="app_name">MEAlzheimer</string>
     <string name="text_bv">BEM VINDO DIGITE SEU NOME ABAIXO</string>
-    <string name="versao_apk">Versão Preview 1.113 ©</string>
+    <string name="versao_apk">Versão Preview 1.14 ©</string>
     <string name="logo_principal">logo_principal</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagemlogo">imagemLogo</string>
+    <string name="inputNome">Joao Carlos</string>
+    <string name="imgContinuar">imagemContinuar</string>
+    <string name="name_Eu">CARLOS DOS SANTOS \nIDADE:69 ANOS</string>
+    <string name="como_usar_o_app">COMO USAR O APP</string>
+    <string name="img_usuario">img_usuario</string>
+    <string name="img_qmsoueu">quem_eu</string>
+    <string name="minha_familia">minha_familia</string>
+    <string name="quem_sou_eu">QUEM SOU EU</string>
+    <string name="txt_familia">MINHA FAMILIA</string>
+    <string name="btnEnderecos">Meus Enderecos</string>
+    <string name="btnRemedios">ControledeRemedios</string>
+    <string name="imgRemedioAdd">img_add_remedio</string>
+    <string name="txtAddRemedios">Adicionar Remédios</string>
+    <string name="imgAlergicos">imgalergicos</string>
+    <string name="listaAlergicos">Lista De Alérgicos</string>
+    <string name="list_remedios">Lista de Remédios Cadastrados</string>
+    <string name="remedio_um">N° 1\n
+                               REMÉDIO: ALOIS\n
+                               TIPO: COMPRIMIDOS\n
+                               USO RECOMENDADO: 3 x AO  DIA\n
+                               HORÁRIOS: 7:00  -  14:00  -  22:00
+    </string>
+    <string name="radio_buton_notificacao">Alerta de\nHorários      </string>
+    <string name="remedio_dois">N° 2\n
+                               REMÉDIO: Sirdalud\n
+                               TIPO: COMPRIMIDOS\n
+                               USO RECOMENDADO: 3 x AO  DIA\n
+                               HORÁRIOS: 7:00  -  14:00  -  22:00</string>
+    <string name="alertaparauso">Alerta de Remédio</string>
+    <string name="btnexcluir">btnExcluir</string>
+    <string name="numero_tarefa">TAREFA N° 1 : Lavar a calçada da Casa\nHORÁRIOS: 08:00\nDIAS DA SEMANA:</string>
+    <string name="tarefa_dois">TAREFA N° 2 :  Dar comida aos cachorros\nhorários: 8:00  -  14:00 - 19:00\ndias da semana: </string>
+    <string name="tarefa_dois_finalizacao">TAREFA N° 2 :  Dar comida aos cachorros\nhorários: 8:00  -  14:00 - 19:00\ndias da semana: </string>
+    <string name="tarefa_um">TAREFA N° 1 : Lavar a calçada da Casa\nHORÁRIOS: 08:00\nDIAS DA SEMANA:</string>
+    <string name="tarefa_tres">TAREFA N° 3 : CAMINHAR\nhorários: 7:30  -  17:00\ndias da semana:</string>
+    <string name="central_tarefas">CENTRAL DE TAREFAS</string>
+    <string name="txtNovaTarefa">NOVA TAREFA</string>
+    <string name="cadastrar_nova_tarefa">CADASTRAR NOVA TAREFA</string>
+    <string name="img_novatarefa">img_novatarefa</string>
+    <string name="central_atividades" text="central de atividades" />
+    <string name="centralAtividades">CENTRAL DE ATIVIDADES</string>
+    <string name="ativarLembrete">ATIVAR LEMBRETES   </string>
+    <string name="seg">SEG</string>
+    <string name="ter">TER</string>
+    <string name="qua">QUA</string>
+    <string name="qui">QUI</string>
+    <string name="sex">SEX</string>
+    <string name="sab">SAB</string>
+    <string name="dom">DOM</string>
+    <string name="alergicoUm">N° 1 :\nREMÉDIO : PENICILINA\nTIPO : COMPRIMIDO</string>
+    <string name="textoQuemSouEu">Esta funcionalida foi pensada para que você possa fazer um dossiê de diversas informações pessoais suas.
+                                  \n\nA função quem sou oferece as seguintes funcionalidades:\n\n
+                                  &#10149;	Você pode cadastrar diversas informações que podem te auxiliar caso voçê esqueça.\n\n
+                                  &#10149;	Você pode anexar uma foto ao seu perfil do MEalzheimer.\n\n
+                                  &#10149;	Você pode cadastrar Sua Música preferida e o estilo que ela pertence.\n\n
+                                  &#10149;	Você pode cadastrar comidas que você é alérgico.\n\n
+                                  &#10149; Você pode cadastrar suas comidas preferidas.\n\n
+                                  &#10149; Você pode cadastrar sua cor preferida.
+                                    </string>
+
 </resources>

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import mealzaimerproject.com.mealzaimer.MainActivity;
 import mealzaimerproject.com.mealzaimer.MenuInicialActivity;
 import mealzaimerproject.com.mealzaimer.R;
 

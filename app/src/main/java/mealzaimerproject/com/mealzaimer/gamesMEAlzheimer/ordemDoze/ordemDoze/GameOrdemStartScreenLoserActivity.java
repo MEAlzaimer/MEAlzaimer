@@ -8,11 +8,10 @@ import android.widget.ImageButton;
 
 import mealzaimerproject.com.mealzaimer.MenuInicialActivity;
 import mealzaimerproject.com.mealzaimer.R;
-import mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartActivity;
 
 public class GameOrdemStartScreenLoserActivity extends AppCompatActivity {
-    private ImageButton botaoTentarNovamente;
-    private ImageButton botaoMenuPrincipal;
+    protected ImageButton botaoTentarNovamente;
+    protected ImageButton botaoMenuPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
