@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 
 import mealzaimerproject.com.mealzaimer.MainActivity;
+import mealzaimerproject.com.mealzaimer.MenuInicialActivity;
 import mealzaimerproject.com.mealzaimer.R;
 
 public class SplashActivity extends Activity {
@@ -23,9 +24,9 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
             //abrir a mmain activyty
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),MenuInicialActivity.class));
                 finish();
             }
-        },4000);
+        },2000);
     }
 }

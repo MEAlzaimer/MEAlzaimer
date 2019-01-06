@@ -30,7 +30,7 @@ public class FamiliaActivity extends AppCompatActivity {
         imagemum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"JOSÉ ABREU DOS SANTOS", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"JOSÉ ABREU DOS SANTOS\n66 Anos", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -38,7 +38,7 @@ public class FamiliaActivity extends AppCompatActivity {
         imgdois.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"CARLOS DOS SANTOS", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"CARLOS DOS SANTOS\n70 Anos", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -54,7 +54,7 @@ public class FamiliaActivity extends AppCompatActivity {
         imgquatro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    Toast.makeText(getApplicationContext(),"ROMULO DOS SANTOS", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"ROMULO DOS SANTOS\n39 anos", Toast.LENGTH_SHORT).show();
 
             }
         });

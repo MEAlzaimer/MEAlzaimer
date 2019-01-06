@@ -62,7 +62,14 @@
         <activity android:name=".controleRemedios.MenuInicioRemediosTwoActivity" />
         <activity android:name=".CadastroRemedioAlergicoActivity" />
         <activity android:name=".controleRemedios.ListaAlergicosblankActivity" />
-        <activity android:name=".manualMEAlzheimer.Manual1Activity"></activity>
+        <activity android:name=".manualMEAlzheimer.Manual1Activity" />
+        <activity android:name=".manualMEAlzheimer.Manual2Activity" />
+        <activity android:name=".manualMEAlzheimer.ManualTresActivity" />
+        <activity android:name=".manualMEAlzheimer.ManualQuatroActivity" />
+        <activity android:name=".anotacoesMEAlzheimer.AnotacaoUmActivity" />
+        <activity android:name=".anotacoesMEAlzheimer.AnotacaoUmSalvaActivity" />
+        <activity android:name=".manualMEAlzheimer.ManualCincoActivity" />
+        <activity android:name=".ManualSeisActivity"></activity>
     </application>
 
 </manifest>

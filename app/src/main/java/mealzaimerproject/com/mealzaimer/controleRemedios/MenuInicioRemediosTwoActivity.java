@@ -10,12 +10,15 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.net.ProtocolException;
+
 import mealzaimerproject.com.mealzaimer.CadastroRemedioAlergicoActivity;
 import mealzaimerproject.com.mealzaimer.MenuInicialActivity;
 import mealzaimerproject.com.mealzaimer.R;
 
 public class MenuInicioRemediosTwoActivity extends AppCompatActivity {
    protected ImageButton novoRemedio;
+   protected ImageButton alergico;
     /////remedio um
     protected TextView remedioUm;
     protected TextView nomealertaUm;
@@ -79,6 +82,13 @@ public class MenuInicioRemediosTwoActivity extends AppCompatActivity {
                 apagarUm.setVisibility(View.INVISIBLE);
                 Toast toast = Toast.makeText(getApplicationContext(), "Remedio Excluido.\nLista de vazia..",Toast.LENGTH_SHORT);
                 toast.show();
+            }
+        });
+        alergico=(ImageButton)findViewById(R.id.btnAlergicos);
+        alergico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),ListaAlergicosActivity.class));
             }
         });
 

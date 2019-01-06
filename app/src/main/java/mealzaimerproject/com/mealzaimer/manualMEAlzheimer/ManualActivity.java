@@ -10,6 +10,7 @@ import mealzaimerproject.com.mealzaimer.R;
 
 public class ManualActivity extends AppCompatActivity {
     protected ImageButton proximatela;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

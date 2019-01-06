@@ -32,7 +32,7 @@
     <string name="radio_buton_notificacao">Alerta de\nHorários      </string>
     <string name="remedio_dois">N° 2\n
                                REMÉDIO: Sirdalud\n
-                               TIPO: COMPRIMIDOS\n
+                               TIPO: em gotas\n
                                USO RECOMENDADO: 3 x AO  DIA\n
                                HORÁRIOS: 7:00  -  14:00  -  22:00</string>
     <string name="alertaparauso">Alerta de Remédio</string>
@@ -57,7 +57,7 @@
     <string name="sab">SAB</string>
     <string name="dom">DOM</string>
     <string name="alergicoUm">N° 1 :\nREMÉDIO : PENICILINA\nTIPO : COMPRIMIDO</string>
-    <string name="textoQuemSouEu">Esta funcionalida foi pensada para que você possa fazer um dossiê de diversas informações pessoais suas.
+    <string name="textoQuemSouEu">Esta funcionalidade foi pensada para que você possa fazer um dossiê de diversas informações pessoais suas.
                                   \n\nA função quem sou oferece as seguintes funcionalidades:\n\n
                                   &#10149;	Você pode cadastrar diversas informações que podem te auxiliar caso voçê esqueça.\n\n
                                   &#10149;	Você pode anexar uma foto ao seu perfil do MEalzheimer.\n\n
@@ -66,5 +66,39 @@
                                   &#10149; Você pode cadastrar suas comidas preferidas.\n\n
                                   &#10149; Você pode cadastrar sua cor preferida.
                                     </string>
+    <string name="textoMinhaFamilia">
+                                  Esta funcionalidade permite que você cadastre diversos amigos e parentes,auxiliando-o no reconhecimento dos mesmos.\n\n
+                                  &#10149;	Você pode cadastrar familiares.\n\n
+                                  &#10149;	Você incluir familiares em uma categoria.\n\n
+                                  &#10149;	Você pode cadastrar amigos.\n\n
+                                  &#10149;	Você pode incluir um amigo em uma categoria.\n\n
+                                  &#10149; Você pode consultar o nome e a idade de cada um já cadastrado.\n\n
+                                  &#10149; Você pode excluir um cadastrado.
+
+    </string>
+    <string name="textoEnderecos">
+                                  A função Meus Endereços Proporciona as seguinte funcões:\n\n
+                                  &#10149;	Você pode cadastrar seu endereço.\n\n
+                                  &#10149;	Você pode anexar a foto do seu endereço.\n\n
+                                  &#10149;	Você pode cadastrar 2 endereços emergênciais de confiança.\n\n
+                                  &#10149;	Você pode direcionar a sua rota para o endereço mais próximo.\n\n
+                                  &#10149; Auxilia você, quando você esquecer o caminho de casa.\n\n
+                                  &#10149; Você pode excluir um cadastrado.\n\n
+                                  &#10149; Para utilizar esta funcionalidade é preciso que você ative o gps do seu celular, como demonstram as imagens abaixo.
+
+    </string>
+    <string name="textoRemedios">
+                                  A função Controle de Remédios Proporciona as seguinte funcões:\n\n
+                                  &#10149;	Você pode cadastrar e excluir seus remédios.\n\n
+                                  &#10149;	Você pode cadastrar remédios que você é alérgico.\n\n
+                                  &#10149;	Você pode gerenciar os dias da semana que devem ser ingeridos.\n\n
+                                  &#10149;	Você pode ativar lembretes.\n\n
+    </string>
+    <string name="textoTarefas">  A função TAREFAS DO DIA-A-DIA PROPORCIONA AS seguinte funcões:\n\n
+                                  &#10149;	Você pode cadastrar DIVERSAS TAREFAS DO SEU DIA-A-DIA.\n\n
+                                  &#10149;	Você pode ALERTAS SOBRE A TAREFA CADASTRADA.\n\n
+                                  &#10149;	Você pode CADASTRAR OS DIAS DA SEMANA QUE AS TAREFAS DEVEM SER CONCLUIDA.\n\n
+                                  &#10149;	Você pode OS HORARIOS DE EXECUÇÃO DA TAREFA.\n\n
+    </string>
 
 </resources>

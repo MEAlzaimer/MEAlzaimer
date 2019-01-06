@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="false"
-            android:clickable="false"
+            android:clickable="true"
             android:text="@string/seg"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView76" />
@@ -58,6 +58,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/ter"
             app:layout_constraintStart_toEndOf="@+id/radioButton6"
             app:layout_constraintTop_toBottomOf="@+id/textView76" />
@@ -69,6 +70,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
+            android:clickable="true"
             android:text="@string/qua"
             app:layout_constraintStart_toEndOf="@+id/radioButton7"
             app:layout_constraintTop_toBottomOf="@+id/textView76" />
@@ -81,6 +83,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/qui"
             app:layout_constraintStart_toEndOf="@+id/radioButton8"
             app:layout_constraintTop_toBottomOf="@+id/textView76" />
@@ -92,6 +95,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
+            android:clickable="true"
             android:text="@string/sex"
             app:layout_constraintStart_toEndOf="@+id/radioButton11"
             app:layout_constraintTop_toBottomOf="@+id/textView76" />
@@ -103,6 +107,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
+            android:clickable="true"
             android:text="@string/sab"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
@@ -114,6 +119,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
+            android:clickable="true"
             android:text="@string/dom"
             app:layout_constraintStart_toEndOf="@+id/radioButton13"
             app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
@@ -229,6 +235,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/seg"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView44" />
@@ -241,6 +248,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/ter"
             app:layout_constraintStart_toEndOf="@+id/radioButton15"
             app:layout_constraintTop_toBottomOf="@+id/textView44" />
@@ -253,6 +261,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/qua"
             app:layout_constraintStart_toEndOf="@+id/radioButton16"
             app:layout_constraintTop_toBottomOf="@+id/textView44" />
@@ -266,6 +275,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/qui"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/radioButton17"
@@ -280,6 +290,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/sex"
             app:layout_constraintStart_toEndOf="@+id/radioButton18"
             app:layout_constraintTop_toBottomOf="@+id/textView44" />
@@ -292,6 +303,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/sab"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioButton15" />
@@ -334,6 +346,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:checked="true"
+            android:clickable="true"
             android:text="@string/dom"
             app:layout_constraintStart_toEndOf="@+id/radioButton20"
             app:layout_constraintTop_toBottomOf="@+id/radioButton16" />

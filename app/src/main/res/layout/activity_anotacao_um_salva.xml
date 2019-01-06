@@ -30,6 +30,7 @@
         android:inputType="textMultiLine"
         android:paddingLeft="45dp"
         android:paddingRight="10dp"
+        android:text="LER LIVRO OS PATRIOTAS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
