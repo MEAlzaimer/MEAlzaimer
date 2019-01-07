@@ -24,7 +24,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
             //abrir a mmain activyty
-                startActivity(new Intent(getApplicationContext(),MenuInicialActivity.class));
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
                 finish();
             }
         },2000);

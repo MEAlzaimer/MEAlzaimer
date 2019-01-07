@@ -11,7 +11,6 @@ import mealzaimerproject.com.mealzaimer.anotacoesMEAlzheimer.InicioAnotacoesActi
 import mealzaimerproject.com.mealzaimer.controleRemedios.MenuInicioRemedios;
 import mealzaimerproject.com.mealzaimer.controleTarefas.InicioAtividadesActivity;
 import mealzaimerproject.com.mealzaimer.gamesMEAlzheimer.ordemDoze.GamesActivity;
-import mealzaimerproject.com.mealzaimer.saudeMEAlzheimer.DicasSaudeActivity;
 import mealzaimerproject.com.mealzaimer.sobreMimMEAlzheimer.EuActivity;
 
 public class MenuInicialActivity extends AppCompatActivity {
@@ -92,7 +91,7 @@ public class MenuInicialActivity extends AppCompatActivity {
         botaoDicas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),DicasSaudeActivity.class));
+               startActivity(new Intent(getApplicationContext(),DicaActivity.class));
             }
         });
 

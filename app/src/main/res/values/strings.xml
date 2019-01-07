@@ -9,7 +9,8 @@
     <string name="imagemlogo">imagemLogo</string>
     <string name="inputNome">Joao Carlos</string>
     <string name="imgContinuar">imagemContinuar</string>
-    <string name="name_Eu">CARLOS DOS SANTOS \nIDADE:69 ANOS</string>
+    <string name="name_Eu">CARLOS DOS SANTOS\n </string>
+    <string name="name_Euu">CARLOS DOS SANTOS\n69  ANOS </string>
     <string name="como_usar_o_app">COMO USAR O APP</string>
     <string name="img_usuario">img_usuario</string>
     <string name="img_qmsoueu">quem_eu</string>
@@ -100,5 +101,28 @@
                                   &#10149;	Você pode CADASTRAR OS DIAS DA SEMANA QUE AS TAREFAS DEVEM SER CONCLUIDA.\n\n
                                   &#10149;	Você pode OS HORARIOS DE EXECUÇÃO DA TAREFA.\n\n
     </string>
+    <string name="txtAtividades">O mal de Alzheimer leva à diminuição do mobilidade da pessoa, aumentando a dificuldade
+                                 para andar e manter o equilíbrio,que impossibilita a realização de forma autônoma das
+                                 atividades do dia a dia, como andar ou deitar-se, por exemplo.
+                                 Desta forma, a atividade física tem várias vantagens para o paciente com Alzheimer, como:\n
+
+                                 &#10149; Evitar dor nos músculos e articulações;\n
+                                 &#10149;Prevenir quedas e fraturas;\n
+                                 &#10149;Aumentar os movimentos peristálticos do intestino, facilitando a eliminação das fezes;\n
+                                 &#10149;Retardar que o paciente fique acamado.?\n
+
+                                 Deve-se fazer atividade física todos os dias, como caminhar ou fazer hidroginástica pelo menos 30
+                                 minutos todos os dias. Além disso, de acordo com a gravidade da doença, pode ser preciso fazer
+                                 sessões de fisioterapia para manter qualidade de vida. </string>
+    <string name="contatosocial">O paciente com Alzheimer deve manter contato com amigos e familiares para evitar o isolamento e a solidão,
+                                 que leva ao aumento da perda de capacidades cognitivas. Assim, é importante ir na padaria, passear no jardim 
+                                 ou estar presente no aniversários dos familiares, para conversar e interagir. 
+                                 No entanto, é importante estar em locais calmos, já que o barulho, pode aumentar o nível de confusão, 
+                                 deixando a pessoa mais agitada ou agressiva.</string>
+    <string name="txtCinco">LEMBRE-SE SEMPRE DE SE HIDRATAR.
+        Não só de líquidos é feita a hidratação. Alimentos ricos em água também ajudam a hidratar. Ofereça-os ao idoso ao longo do dia, principalmente          nos dias mais quentes. Boas opções são frutas como melancia, melão e laranja. Além disso, você pode oferecer gelatinas ou sopas, desde que estejam          de acordo com a dieta habitual da pessoa com Alzheimer.         Lembre-se: a desidratação pode piorar o estado de saúde geral do idoso e trazer outros problemas. Fique sempre atento à ingestão de líquidos da pessoa         com Alzheimer! Quanto à alimentação, é possível preparar receitas com ingredientes capazes de retardar o avanço da doença.</string>
+    <string name="nome">NOME COMPLETO:\nCARLOS DOS SANTOS\n\nIDADE:\n69 ANOS\n\nDATA DE NASCIMENTO:\n11/10/1949\n\nCOR PREFERIDA:\nVERMELHO\n\nCATEGORIA MÚSICAL:\nSERTANEJO\n\nMÚSICA PREFERIDA:\nCORAÇÃO CALEJADO - jORGE E MATHEUS\n\nCOMIDA PREFERIDA:\nFEIJOADA E PANQUECA\n\nALERGIA ALIMENTAR:\nCARNE DE SOJA
+                        </string>
+
 
 </resources>

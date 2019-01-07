@@ -15,7 +15,7 @@ public class ManualActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manual);
-        proximatela=(ImageButton)findViewById(R.id.btnProx);
+        proximatela=(ImageButton)findViewById(R.id.btnProxDicaUm);
         proximatela.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

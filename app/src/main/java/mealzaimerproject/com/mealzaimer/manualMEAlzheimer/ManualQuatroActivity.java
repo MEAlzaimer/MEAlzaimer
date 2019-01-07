@@ -22,7 +22,7 @@ public class ManualQuatroActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),ManualCincoActivity.class));
             }
         });
-        telatres=(ImageButton)findViewById(R.id.btnAntTres);
+        telatres=(ImageButton)findViewById(R.id.btnAntUm);
         telatres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

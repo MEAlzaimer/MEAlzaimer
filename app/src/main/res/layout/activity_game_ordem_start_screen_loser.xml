@@ -8,8 +8,8 @@
     tools:context=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity">
 
     <android.support.constraint.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -25,17 +25,21 @@
 
         <me.biubiubiu.justifytext.library.JustifyTextView
             android:id="@+id/text"
-            android:layout_width="wrap_content"
+            olor="@color/colorPrimary"
+            android:layout_width="297dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="380dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
-            android:text="             AHHHH,NÃO FIQUE ASSIM TENTE DE NOVO.\nSABIA QUE JOGOS SÃO SUPER INDICADOS PARA QUEM TEM ALZHEIMER,AJUDA NA ESTIMULAÇÃO DO CÉREBRO."
-            android:textColor="@color/colorPrimary"
+
+            android:text="AHHHH,NÃO FIQUE ASSIM TENTE DE NOVO.\nSABIA QUE JOGOS SÃO SUPER INDICADOS PARA QUEM TEM ALZHEIMER,AJUDA NA ESTIMULAÇÃO DO CÉREBRO."
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/btnTentarNovamente"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -68,10 +72,10 @@
             android:scaleType="centerInside"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.573"
+            app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnTentarNovamente"
-            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/buttonmenuprincipal" />
 
     </android.support.constraint.ConstraintLayout>

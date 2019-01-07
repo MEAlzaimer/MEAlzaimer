@@ -20,7 +20,7 @@ public class NovaTarefaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nova_tarefa);
-        salvar=(ImageButton)findViewById(R.id.btnSalvar);
+        salvar=(ImageButton)findViewById(R.id.ed);
         cancelar=(ImageButton)findViewById(R.id.btnCancelar);
         salvar.setEnabled(false);
         salvar.setVisibility(View.GONE);
